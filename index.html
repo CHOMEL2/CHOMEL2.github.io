@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chack Artau</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Enlace a Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/your-kit-id.css">
+  <style>
+    /* Aplicar la tipografía Stadio Now a todo el documento */
+    body {
+      font-family: "stadio-now-variable", sans-serif;
+      font-variation-settings: 'wght' 400, 'opsz' 100;
+    }
+
+    /* Ajustar el tamaño y alineación de las letras */
+    .hero {
+      text-align: center;
+      position: relative;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    .hero h1.large {
+      font-size: 4rem;
+    }
+
+    .hero h1.highlight {
+      color: yellow;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .hero .hero-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 150px;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Barra de Navegación -->
+  <header class="navbar">
+    <div class="logo">CHACK <span>ARTAU</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="Bandcamp.html">BANDCAMP</a></li>
+        <li><a href="tattolife.html">TATTO LIFE</a></li>
+        <li><a href="tip&trip.html">TIP&TRIP</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons">
+      <button class="login-btn" onclick="window.location.href='login.html'">INICIAR SESIÓN</button>
+      <button class="register-btn" onclick="window.location.href='register.html'">REGISTRO</button>
+    </div>
+  </header>
+
+  <!-- Sección Principal -->
+  <main>
+    <section class="hero">
+      <h1>BIENVENIDXS A:</h1>
+      <h1 class="large">CHACK</h1>
+      <h1 class="large highlight">ARTAU</h1>
+      <p>PAGINA DE DIFUSION ARTISTICA</p>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <p>© 2024 Chack Artau. Todos los derechos reservados.</p>
+    <ul class="footer-links">
+      <li><a href="#">Política de Privacidad</a></li>
+      <li><a href="#">Términos y Condiciones</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
